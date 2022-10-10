@@ -12,7 +12,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - ![image](https://user-images.githubusercontent.com/107594143/194962169-4f286687-9959-439e-a88a-abea37b14a7d.png)
  ## Combination (Over and Under) Sampling
   - ![image](https://user-images.githubusercontent.com/107594143/194962247-0fa40947-1a74-4cb4-bb79-4588ce4f3cf8.png)
+## Ensemble Learners
+### Balanced Random Forest Classifier Results
+ - ![image](https://user-images.githubusercontent.com/107594143/194962398-75ff96c4-2953-4b6e-82f2-f584c601e14f.png)
+### Easy Ensemble AdaBoost Classifier Results
+ -![image](https://user-images.githubusercontent.com/107594143/194962473-fa5e7ece-62b5-4379-8bf3-8468054afce6.png)
 
- ### SMOTEENN Results
 # Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
