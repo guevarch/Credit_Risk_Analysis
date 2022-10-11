@@ -22,4 +22,4 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 # Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-Easy Ensemble AdaBoost Classifier had the best accuracy score vs the rest of the tests.
+Easy Ensemble AdaBoost Classifier had the best accuracy score vs the rest of the tests, In this case, the model's accuracy score was 0.776, meaning that the model was correct 77.6% of the time.
