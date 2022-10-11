@@ -27,5 +27,5 @@ Easy Ensemble AdaBoost Classifier had the best accuracy score vs the rest of the
 
 All the models have a very good low-risk precision score, which means that they can predict low-risk credit scores well. On the other hand, the best model for predicting high-risk scores is Easy Ensemble AdaBoost Classifier, but not by much (0.07 vs 0.01 for the others). 
 
-The model with the best sensitivity score is the Easy Ensemble AdaBoost Classifier with a high risk score of 0.9 and and low risk score of 0.94. The least accurate model is the ClusterCentroids with a high risk score of 0.59 and a low risk score of 0.43.
+The model with the best sensitivity score is the Easy Ensemble AdaBoost Classifier with a high risk score of 0.9 and and low risk score of 0.94. The least accurate model is the ClusterCentroids with a high risk score of 0.59 and a low risk score of 0.43. A highly sensitive test means that there are few false negative results.
 
