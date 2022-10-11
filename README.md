@@ -20,6 +20,12 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
  -![image](https://user-images.githubusercontent.com/107594143/194962473-fa5e7ece-62b5-4379-8bf3-8468054afce6.png)
 
 # Summary
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-Easy Ensemble AdaBoost Classifier had the best accuracy score vs the rest of the tests, In this case, the model's accuracy score was 0.776, meaning that the model was correct 77.6% of the time.
+In this analysis, I used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling, the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
+
+Easy Ensemble AdaBoost Classifier had the best accuracy score vs the rest of the tests, In this case, the model's accuracy score was 0.916, meaning that the model was correct 91.6% of the time. The same model has the best f1 score of 0.14 for high risk and a 0.97 for low risk.
+
+All the models have a very good low-risk precision score, which means that they can predict low-risk credit scores well. On the other hand, the best model for predicting high-risk scores is Easy Ensemble AdaBoost Classifier, but not by much (0.07 vs 0.01 for the others). 
+
+The model with the best sensitivity score is the Easy Ensemble AdaBoost Classifier with a high risk score of 0.9 and and low risk score of 0.94. The least accurate model is the ClusterCentroids with a high risk score of 0.59 and a low risk score of 0.43.
+
