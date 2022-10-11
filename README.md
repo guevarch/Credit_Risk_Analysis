@@ -2,7 +2,6 @@
 # Overview
  - In this analysis, I used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling, the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, I used a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, I compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.
 # Results
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
  ## Oversampling
  ### Naive Random Oversampling Results
   - ![image](https://user-images.githubusercontent.com/107594143/194962048-dea78e9c-8e97-429e-8870-efbf0c5d509e.png)
